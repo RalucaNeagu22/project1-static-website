@@ -1,0 +1,26 @@
+body {
+    background-color:#112222;
+    color: #FAFAFA;
+}
+
+header {
+    background-color:blue;
+}
+
+nav{
+    background-color: green;
+}
+
+footer{
+    background-color: blueviolet;
+    height: 100px;
+}
+
+.heading {
+    color: #A59A8D
+}
+
+.table{
+    width: 100%;
+    border: 1px solid #FAFAFA;
+}
