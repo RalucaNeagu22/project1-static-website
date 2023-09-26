@@ -1,26 +1,103 @@
 body {
-    background-color:#112222;
+    background-image: url(./images/coffee.jpg);
     color: #FAFAFA;
 }
 
-header {
-    background-color:blue;
+main{
+    margin-left: 50px;
 }
+
+
 
 nav{
-    background-color: green;
+    background-color: #8E806A;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
-footer{
-    background-color: blueviolet;
-    height: 100px;
+.footer-container{
+    background-color: rgba(44, 25, 4, 0.655);
+    height: auto;
 }
 
-.heading {
-    color: #A59A8D
-}
 
 .table{
     width: 100%;
-    border: 1px solid #FAFAFA;
+    border: 1px solid #DFD7BF;
+    font-family: 'Romantic', sans-serif;
+    font-size: 30px;
+
+}
+
+li {
+    display: inline; 
+}
+
+li > a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Romantic', sans-serif;
+    color: #FFE6BC;
+  }
+   
+ .heading{                                                                   font-family: 'Sindupen Signature', sans-serif;
+    font-family: 'Natalie', sans-serif;
+                                                
+ }
+
+ .fancytext{
+    font-family: 'Romantic', sans-serif;
+    font-family: 'Winter', sans-serif;
+    font-size: 30px;
+
+ }
+
+ ul {
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+ h1{
+    margin: 100px;
+    font-family: 'Romantic', sans-serif;
+    text-align: center;
+    font-size: 50px;
+ }
+
+
+.textdiv{
+    width: 50%;
+    margin-top: 100px;
+    display: block;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+.newsletter button{
+    background-color: #F2EAD3;
+    border-radius: 15px;
+}
+
+td{
+    text-align: center;
+}
+ 
+.description{
+    font-size: 25px;
+    margin: 100px 0;
+    font-family: 'Winter', sans-serif;
+}
+
+.recipes{
+    font-family: 'Winter', sans-serif;
+    font-size: 20px;
 }
